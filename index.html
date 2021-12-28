@@ -7,9 +7,10 @@
     <meta name="viewport" charset="width=device-width, initial-scale=1.0">
     <title>Sumobook</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b47f49f5f6.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+ <body>
 
     <nav>
         <div class="nav-laft">
@@ -20,10 +21,357 @@
                 <li><img src="images/video.png"></li>
             </ul>
         </div>
-        <div class="nav-right"></div>
-        <div class="nav-laft"></div>
+        <div class="nav-right">
+
+        <div class="search-box">
+            <img src="images/search.png">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="nev-user-icon online" onclick="settingsMenuToggle()">
+            <img src="images/profile-pic.jpg">
+        </div>
+
+        </div>
+        <!------------ settings-menu--------------  --->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.jpg">
+                    <div>
+                        <p>ABDUL Jabbar</p>
+                        <a href="#">see your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to alight motion Video Editors</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+
+        </div>
+
     </nav>
 
-</body>
+    <div class="container">
+     <!------------ left-sidebar--------------  --->
+        <div class="left-sidebar">
+            <div class="imp-links"></div>
+                <a href="#"><im g src="images/news.png"> Latest News</a>
+                <a href="#"><im g src="images/friends.png"> friends</a>
+                <a href="#"><im g src="images/group.png"> Group</a>
+                <a href="#"><im g src="images/marketplace.png"> marketplace</a>
+                <a href="#"><im g src="images/watch.png"> Watch</a>
+                <a href="#">See More</a>
+        </div>
+        <div class="shortcut-link">
+            <p>Your shortcut</p>
+            <a href="#"><im g src="images/shortcut-1.png"> Web Developers</a>
+            <a href="#"><im g src="images/shortcut-2.png"> Web Developers course</a>
+            <a href="#"><im g src="images/shortcut-3.png"> Full stack Developers</a>
+            <a href="#"><im g src="images/shortcut-4.png"> Website Experts</a>
+        </div>
+        <!------------ main contenet--------------  --->
+        <div class="main-contenet">
 
-</html>
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>post story</p>
+                </div>
+            </div>
+            <div class="story-gallery">
+                <div class="story story2">
+                    <img src="images/member-1.png">
+                    <p>sumo</p>
+                </div>
+            </div>
+            <div class="story-gallery">
+                <div class="story story3">
+                    <img src="images/member-2.png">
+                    <p>NABIL</p>
+                </div>
+            </div>
+            <div class="story-gallery">
+                <div class="story story4">
+                    <img src="images/member-3.png">
+                    <p>SUHA</p>
+                </div>
+            </div>
+            <div class="story-gallery">
+                <div class="story story5">
+                    <img src="images/member-4.png">
+                    <p>Rahi</p>
+                </div>
+            </div>
+
+            <div class="wright-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.jpg">
+                    <div>
+                        <p>NABIL</p>
+                        <small>public <i class="fas fa-sort-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">photo/video</a>
+                        <a href="#"><img src="images/feeling.png">feeling/Activity</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg">
+                        <div>
+                            <p>ABDULLAH AL NABIL</p>
+                            <span>may 23 2021,12:40 am</span>
+                        </div>
+                    </div> 
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">subscribe <span>@NAYEEM GAME,</span> youtube channel to watch more video on alight motion and kimemaster. <a href="#">#nayeemgamer</a><a href="#">#youtubechannel</a></p>
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">500</div>
+                        <div><img src="images/comments.png">200</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png">
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg">
+                        <div>
+                            <p>ABDULLAH AL NABIL</p>
+                            <span>may 23 2021,12:40 am</span>
+                        </div>
+                    </div> 
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">subscribe <span>@NAYEEM GAME,</span> Don't feel good alone?
+                    Want to have fun?
+                    No people?
+                    Moved to our 3.0 <a href="#">#nayeemgamer</a><a href="#">GAMING RAFEZ MR FAN GROUP</a></p>
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like.png">100</div>
+                        <div><img src="images/comments.png">20</div>
+                        <div><img src="images/share.png">5</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png">
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg">
+                        <div>
+                            <p>Sandeep RanvasL</p>
+                            <span>march 25 2021,11:45 am</span>
+                        </div>
+                    </div> 
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">subscribe <span>@NAYEEM GAME,</span>Urgent need 20 students 
+                    Online work from home 
+                    Daily payment  
+                    Govt certified<a href="#">#am.editors_bd</a><a href="#">#tikyokbd</a></p>
+                <img src="images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">900</div>
+                        <div><img src="images/comments.png">20k</div>
+                        <div><img src="images/share.png">100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png">
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg">
+                        <div>
+                            <p>H M Ashraful Amin</p>
+                            <span>december 29 2021,12:40 pm</span>
+                        </div>
+                    </div> 
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">subscribe <span>@NAYEEM GAME,</span> Free fire is becoming a child's game day by day, most of the teammates in the match are these today
+                    Nowadays, the age is below 16 to 10, they play more nowadays,
+                    But the game is banned from playing children under 12 years old!! <a href="#">#freefire</a><a href="#">#viral</a></p>
+                <img src="images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like.png">50</div>
+                        <div><img src="images/comments.png">20</div>
+                        <div><img src="images/share.png">1</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png">
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg">
+                        <div>
+                            <p>AM Editors BD</p>
+                            <span>jun 23 2021,11:35 am</span>
+                        </div>
+                    </div> 
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">subscribe <span>@NAYEEM GAME,</span>We will give a Giveaways if we complete 1 k subscribers on our YouTube channel.<a href="#">#am.editors_bd</a><a href="https://youtu.be/0fo4yb4WwUA">#youtubechannel</a></p>
+                <img src="images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">500</div>
+                        <div><img src="images/comments.png">200</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png">
+                    </div>
+                </div>
+
+            </div>
+
+            <button type="button" class="load-more-but">Load More</button>
+
+
+
+        </div>
+        <!------------ right-sidebar--------------  --->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>16</h3>
+                    <span>march</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>sylhet</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>may</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>sylhet</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Cobversation</h4>
+                <a href="#">Hide chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png">
+                </div>
+                <p>SUMO HAQ</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png">
+                </div>
+                <p>ABDULLAH AL NABIL</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png">
+                </div>
+                <p>SUHA</p>
+            </div>
+
+
+
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>copyright 2022 - Abdul Jabbar Al Nahid</p>
+    </div>
+
+    <script src="script.js"></script>
+ </body>
+
+</html>  
