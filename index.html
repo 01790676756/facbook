@@ -1,377 +1,387 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" charset="IE=edge">
-    <meta name="viewport" charset="width=device-width, initial-scale=1.0">
-    <title>Sumobook</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/b47f49f5f6.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <title>Home_page</title>
+    <link rel="icon" type="image/x-icon" href="/images/social_icon.ico">
 </head>
-
- <body>
-
+<body>
     <nav>
-        <div class="nav-laft">
-            <img src="images/logo3.jpg" class="logo">
+        <div class="nav-left">
+            <img src="images/logo2.png" alt="logo2" class="logo">
             <ul>
-                <li><img src="images/notification.png"></li>
-                <li><img src="images/inbox.png"></li>
-                <li><img src="images/video.png"></li>
+                <li><img src="images/notification.png" alt="notification"></li>
+                <li><img src="images/inbox.png" alt="inbox"></li>
+                <li><img src="images/video.png" alt="video"></li>
             </ul>
         </div>
+
         <div class="nav-right">
-
-        <div class="search-box">
-            <img src="images/search.png">
-            <input type="text" placeholder="Search">
+            <div class="search-box">
+                <img src="images/search.png" alt="search">
+                <input type="text" name="" id="" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="images/hero.jpg" alt="">
+            </div>
         </div>
-        <div class="nev-user-icon online" onclick="settingsMenuToggle()">
-            <img src="images/profile-pic.jpg">
-        </div>
-
-        </div>
-        <!------------ settings-menu--------------  --->
+        <!-- dropdown-setting-menu -->
         <div class="settings-menu">
-
             <div id="dark-btn">
                 <span></span>
             </div>
-
-
             <div class="settings-menu-inner">
                 <div class="user-profile">
-                    <img src="images/profile-pic.jpg">
+                    <img src="images/hero.jpg" alt="">
                     <div>
-                        <p>ABDUL Jabbar</p>
-                        <a href="#">see your profile</a>
+                       <p>Abdul Jabbar Al Nahid</p>
+                       <a href="#">See your profile</a> 
                     </div>
-                </div>
-                <hr>
-                <div class="user-profile">
-                    <img src="images/feedback.png">
-                    <div>
-                        <p>Give Feedback</p>
-                        <a href="#">Help us to alight motion Video Editors</a>
-                    </div>
-                </div>
-                <hr>
-                <div class="settings-links">
-                    <img src="images/setting.png" class="settings-icon">
-                    <a href="#">settings & Privacy <img src="images/arrow.png" width="10px"></a>
-                </div>
-                <div class="settings-links">
-                    <img src="images/help.png" class="settings-icon">
-                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
-                </div>
-                <div class="settings-links">
-                    <img src="images/display.png" class="settings-icon">
-                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
-                </div>
-                <div class="settings-links">
-                    <img src="images/logout.png" class="settings-icon">
-                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
                 </div>
             </div>
-
+            <hr>
+            <div class="user-profile">
+                <img src="images/feedback.png" alt="">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="">Help us to improve the new design</a>
+                </div>
+            </div>
+            <hr>
+            <div class="settings-links">
+                <img src="images/setting.png" class="setting-icon" alt="">
+                <a href="">Setting & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/help.png" class="setting-icon" alt="">
+                <a href="">Help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/display.png" class="setting-icon" alt="">
+                <a href="">Display & Accessibility <img src="images/arrow.png" width="10px" alt=""></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/logout.png" class="setting-icon" alt="">
+                <a href="">Logout <img src="images/arrow.png" alt="" width="10px"></a>
+            </div>
         </div>
-
     </nav>
-
+    <!-- main page -->
     <div class="container">
-     <!------------ left-sidebar--------------  --->
+        <!-- left sidebar -->
         <div class="left-sidebar">
-            <div class="imp-links"></div>
-                <a href="#"><im g src="images/news.png"> Latest News</a>
-                <a href="#"><im g src="images/friends.png"> friends</a>
-                <a href="#"><im g src="images/group.png"> Group</a>
-                <a href="#"><im g src="images/marketplace.png"> marketplace</a>
-                <a href="#"><im g src="images/watch.png"> Watch</a>
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="">Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="images/group.png" alt="">Group</a>
+                <a href="#"><img src="images/marketplace.png" alt="">Marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="">Watch</a>
                 <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Web Disgn Course</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">Website Experts</a>
+            </div>
         </div>
-        <div class="shortcut-link">
-            <p>Your shortcut</p>
-            <a href="#"><im g src="images/shortcut-1.png"> Web Developers</a>
-            <a href="#"><im g src="images/shortcut-2.png"> Web Developers course</a>
-            <a href="#"><im g src="images/shortcut-3.png"> Full stack Developers</a>
-            <a href="#"><im g src="images/shortcut-4.png"> Website Experts</a>
-        </div>
-        <!------------ main contenet--------------  --->
-        <div class="main-contenet">
+
+        <!-- main sidebar -->
+        <div class="main-content">
 
             <div class="story-gallery">
                 <div class="story story1">
-                    <img src="images/upload.png">
-                    <p>post story</p>
+                    <img src="images/upload.png" alt="">
+                    <p>Add Story</p>
                 </div>
-            </div>
-            <div class="story-gallery">
-                <div class="story story2">
-                    <img src="images/member-1.png">
-                    <p>sumo</p>
-                </div>
-            </div>
-            <div class="story-gallery">
-                <div class="story story3">
-                    <img src="images/member-2.png">
-                    <p>NABIL</p>
-                </div>
-            </div>
-            <div class="story-gallery">
-                <div class="story story4">
-                    <img src="images/member-3.png">
-                    <p>SUHA</p>
-                </div>
-            </div>
-            <div class="story-gallery">
                 <div class="story story5">
-                    <img src="images/member-4.png">
-                    <p>Rahi</p>
+                    <img src="images/member/member-3.jpg" alt="">
+                    <p>S A A Mizan</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member/member-1.jpg" alt="">
+                    <p>Razin Al Arib</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member/member-7.jpg" alt="">
+                    <p>Abu Huryra</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member/member-8.jpg" alt="">
+                    <p>Suayeb Ahmed</p>
                 </div>
             </div>
 
-            <div class="wright-post-container">
+            <div class="write-post-container">
+
                 <div class="user-profile">
-                    <img src="images/profile-pic.jpg">
+                    <img src="images/hero.jpg" alt="">
                     <div>
-                        <p>NABIL</p>
-                        <small>public <i class="fas fa-sort-down"></i></small>
+                        <p>Abdul Jabbar Al Nahid</p>
+                        <small>Public <i class="fas fa-sort-down"></i></small>
                     </div>
                 </div>
 
                 <div class="post-input-container">
-                    <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+                    <textarea name="" id="" cols="30" rows="3" placeholder="What's on your mind, Sakib?"></textarea>
                     <div class="add-post-links">
-                        <a href="#"><img src="images/live-video.png">Live Video</a>
-                        <a href="#"><img src="images/photo.png">photo/video</a>
-                        <a href="#"><img src="images/feeling.png">feeling/Activity</a>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="post-container">
-                <div class="post-row">
-                    <div class="user-profile">
-                        <img src="images/profile-pic.jpg">
-                        <div>
-                            <p>ABDULLAH AL NABIL</p>
-                            <span>may 23 2021,12:40 am</span>
-                        </div>
-                    </div> 
-                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-                </div>
-
-                <p class="post-text">subscribe <span>@NAYEEM GAME,</span> youtube channel to watch more video on alight motion and kimemaster. <a href="#">#nayeemgamer</a><a href="#">#youtubechannel</a></p>
-                <img src="images/feed-image-1.png" class="post-img">
-
-                <div class="post-row">
-                    <div class="activity-icon">
-                        <div><img src="images/like-blue.png">500</div>
-                        <div><img src="images/comments.png">200</div>
-                        <div><img src="images/share.png">50</div>
-                    </div>
-                    <div class="post-profile-icon">
-                        <img src="images/profile.png">
+                        <a href="#"><img src="images/live-video.png" alt=""> LIVE Video</a>
+                        <a href="#"><img src="images/photo.png" alt=""> Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt=""> Feeling/Activity</a>
                     </div>
                 </div>
 
             </div>
             <div class="post-container">
                 <div class="post-row">
-                    <div class="user-profile">
-                        <img src="images/profile-pic.jpg">
-                        <div>
-                            <p>ABDULLAH AL NABIL</p>
-                            <span>may 23 2021,12:40 am</span>
-                        </div>
-                    </div> 
-                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                 <div class="user-profile">
+                    <img src="images/hero.jpg" alt="">
+                    <div>
+                        <p>Abdul Jabbar Al Nahid</p>
+                        <span>January 06 2022 02<b> : </b>11 AM</span>
+                    </div>
+                 </div> 
+                 <a href="#"><i class="fas fa-ellipsis-v"></i></a>  
                 </div>
-
-                <p class="post-text">subscribe <span>@NAYEEM GAME,</span> Don't feel good alone?
-                    Want to have fun?
-                    No people?
-                    Moved to our 3.0 <a href="#">#nayeemgamer</a><a href="#">GAMING RAFEZ MR FAN GROUP</a></p>
-                <img src="images/feed-image-2.png" class="post-img">
+                
+                <p class="post-text">Lorem ipsum dolor sit, <span>@My Tutorial</span> amet consectetur adipisicing elit. Voluptas ipsum deleniti ullam perspiciatis voluptatum quis asperiores sit beatae qui perferendis similique neque exercitationem quae esse laudantium omnis tempore, dolores inventore!  <a href="#">#MY_COURSE</a> <a href="#">#YouTubeChannel </a> </p>
+                <img src="images/feed/pic-1.png" class="post-img" alt="">
 
                 <div class="post-row">
-                    <div class="activity-icon">
-                        <div><img src="images/like.png">100</div>
-                        <div><img src="images/comments.png">20</div>
-                        <div><img src="images/share.png">5</div>
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">5.9k</div>
+                        <div><img src="images/comments.png" alt="">1.2k</div>
+                        <div><img src="images/share.png" alt="">786</div>
                     </div>
                     <div class="post-profile-icon">
-                        <img src="images/profile.png">
+                        <img src="images/hero.jpg" alt=""><i class="fas fa-sort-down"></i>
                     </div>
                 </div>
-
             </div>
+
             <div class="post-container">
                 <div class="post-row">
-                    <div class="user-profile">
-                        <img src="images/profile-pic.jpg">
-                        <div>
-                            <p>Sandeep RanvasL</p>
-                            <span>march 25 2021,11:45 am</span>
-                        </div>
-                    </div> 
-                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                 <div class="user-profile">
+                    <img src="images/hero.jpg" alt="">
+                    <div>
+                        <p>Abdul Jabbar Al Nahid</p>
+                        <span>January 12 2022 04<b> : </b>19 AM</span>
+                    </div>
+                 </div> 
+                 <a href="#"><i class="fas fa-ellipsis-v"></i></a>  
                 </div>
-
-                <p class="post-text">subscribe <span>@NAYEEM GAME,</span>Urgent need 20 students 
-                    Online work from home 
-                    Daily payment  
-                    Govt certified<a href="#">#am.editors_bd</a><a href="#">#tikyokbd</a></p>
-                <img src="images/feed-image-3.png" class="post-img">
+                
+                <p class="post-text">Lorem ipsum dolor sit, <span>@My Tutorial</span> amet consectetur adipisicing elit. Voluptas ipsum deleniti ullam perspiciatis voluptatum quis asperiores sit beatae qui perferendis similique neque exercitationem quae esse laudantium omnis tempore, dolores inventore!  <a href="#">#MY_COURSE</a> <a href="#">#YouTubeChannel </a> </p>
+                <img src="images/feed/pic-2.jpg" class="post-img" alt="">
 
                 <div class="post-row">
-                    <div class="activity-icon">
-                        <div><img src="images/like-blue.png">900</div>
-                        <div><img src="images/comments.png">20k</div>
-                        <div><img src="images/share.png">100</div>
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="">2.7k</div>
+                        <div><img src="images/comments.png" alt="">784</div>
+                        <div><img src="images/share.png" alt="">133</div>
                     </div>
                     <div class="post-profile-icon">
-                        <img src="images/profile.png">
+                        <img src="images/hero.jpg" alt=""><i class="fas fa-sort-down"></i>
                     </div>
                 </div>
-
             </div>
+
             <div class="post-container">
                 <div class="post-row">
-                    <div class="user-profile">
-                        <img src="images/profile-pic.jpg">
-                        <div>
-                            <p>H M Ashraful Amin</p>
-                            <span>december 29 2021,12:40 pm</span>
-                        </div>
-                    </div> 
-                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                 <div class="user-profile">
+                    <img src="images/hero.jpg" alt="">
+                    <div>
+                        <p>Abdul Jabbar Al Nahid</p>
+                        <span>January 06 2022 02<b> : </b>11 AM</span>
+                    </div>
+                 </div> 
+                 <a href="#"><i class="fas fa-ellipsis-v"></i></a>  
                 </div>
-
-                <p class="post-text">subscribe <span>@NAYEEM GAME,</span> Free fire is becoming a child's game day by day, most of the teammates in the match are these today
-                    Nowadays, the age is below 16 to 10, they play more nowadays,
-                    But the game is banned from playing children under 12 years old!! <a href="#">#freefire</a><a href="#">#viral</a></p>
-                <img src="images/feed-image-4.png" class="post-img">
+                
+                <p class="post-text">Lorem ipsum dolor sit, <span>@My Tutorial</span> amet consectetur adipisicing elit. Voluptas ipsum deleniti ullam perspiciatis voluptatum quis asperiores sit beatae qui perferendis similique neque exercitationem quae esse laudantium omnis tempore, dolores inventore!  <a href="#">#MY_COURSE</a> <a href="#">#YouTubeChannel </a> </p>
+                <img src="images/feed/pic-3.jpg" class="post-img" alt="">
 
                 <div class="post-row">
-                    <div class="activity-icon">
-                        <div><img src="images/like.png">50</div>
-                        <div><img src="images/comments.png">20</div>
-                        <div><img src="images/share.png">1</div>
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">4.4k</div>
+                        <div><img src="images/comments.png" alt="">1.3k</div>
+                        <div><img src="images/share.png" alt="">987</div>
                     </div>
                     <div class="post-profile-icon">
-                        <img src="images/profile.png">
+                        <img src="images/hero.jpg" alt=""><i class="fas fa-sort-down"></i>
                     </div>
                 </div>
-
             </div>
+
             <div class="post-container">
                 <div class="post-row">
-                    <div class="user-profile">
-                        <img src="images/profile-pic.jpg">
-                        <div>
-                            <p>AM Editors BD</p>
-                            <span>jun 23 2021,11:35 am</span>
-                        </div>
-                    </div> 
-                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                 <div class="user-profile">
+                    <img src="images/hero.jpg" alt="">
+                    <div>
+                        <p>Abdul Jabbar Al Nahid</p>
+                        <span>January 06 2022 02<b> : </b>11 AM</span>
+                    </div>
+                 </div> 
+                 <a href="#"><i class="fas fa-ellipsis-v"></i></a>  
                 </div>
-
-                <p class="post-text">subscribe <span>@NAYEEM GAME,</span>We will give a Giveaways if we complete 1 k subscribers on our YouTube channel.<a href="#">#am.editors_bd</a><a href="https://youtu.be/0fo4yb4WwUA">#youtubechannel</a></p>
-                <img src="images/feed-image-5.png" class="post-img">
+                
+                <p class="post-text">Lorem ipsum dolor sit, <span>@My Tutorial</span> amet consectetur adipisicing elit. Voluptas ipsum deleniti ullam perspiciatis voluptatum quis asperiores sit beatae qui perferendis similique neque exercitationem quae esse laudantium omnis tempore, dolores inventore!  <a href="#">#MY_COURSE</a> <a href="#">#YouTubeChannel </a> </p>
+                <img src="images/feed/pic-4.png" class="post-img" alt="">
 
                 <div class="post-row">
-                    <div class="activity-icon">
-                        <div><img src="images/like-blue.png">500</div>
-                        <div><img src="images/comments.png">200</div>
-                        <div><img src="images/share.png">50</div>
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">43.9k</div>
+                        <div><img src="images/comments.png" alt="">11.2k</div>
+                        <div><img src="images/share.png" alt="">2.2k</div>
                     </div>
                     <div class="post-profile-icon">
-                        <img src="images/profile.png">
+                        <img src="images/hero.jpg" alt=""><i class="fas fa-sort-down"></i>
                     </div>
                 </div>
-
             </div>
 
-            <button type="button" class="load-more-but">Load More</button>
+            <div class="post-container">
+                <div class="post-row">
+                 <div class="user-profile">
+                    <img src="images/hero.jpg" alt="">
+                    <div>
+                        <p>Abdul Jabbar Al Nahid</p>
+                        <span>January 06 2022 02<b> : </b>11 AM</span>
+                    </div>
+                 </div> 
+                 <a href="#"><i class="fas fa-ellipsis-v"></i></a>  
+                </div>
+                
+                <p class="post-text">Lorem ipsum dolor sit, <span>@My Tutorial</span> amet consectetur adipisicing elit. Voluptas ipsum deleniti ullam perspiciatis voluptatum quis asperiores sit beatae qui perferendis similique neque exercitationem quae esse laudantium omnis tempore, dolores inventore!  <a href="#">#MY_COURSE</a> <a href="#">#YouTubeChannel </a> </p>
+                <img src="images/feed/pic-5.jpg" class="post-img" alt="">
 
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1.9k</div>
+                        <div><img src="images/comments.png" alt="">500</div>
+                        <div><img src="images/share.png" alt="">111</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/hero.jpg" alt=""><i class="fas fa-sort-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
 
 
         </div>
-        <!------------ right-sidebar--------------  --->
-        <div class="right-sidebar">
 
+        <!-- right sidebar -->
+        <div class="right-sidebar">
             <div class="sidebar-title">
                 <h4>Events</h4>
                 <a href="#">See All</a>
             </div>
-
-            <div class="event">
-                <div class="left-event">
-                    <h3>16</h3>
-                    <span>march</span>
-                </div>
-                <div class="right-event">
-                    <h4>Social Media</h4>
-                    <p><i class="fas fa-map-marker-alt"></i>sylhet</p>
-                    <a href="#">More Info</a>
-                </div>
+         <div class="event">
+            <div class="left-event">
+                <h3>18</h3>
+                <span>March</span>
             </div>
-            
-            <div class="event">
-                <div class="left-event">
-                    <h3>22</h3>
-                    <span>may</span>
-                </div>
-                <div class="right-event">
-                    <h4>Mobile Marketing</h4>
-                    <p><i class="fas fa-map-marker-alt"></i>sylhet</p>
-                    <a href="#">More Info</a>
-                </div>
+            <div class="right-event">
+                <h4>Social Media</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Vectoria Park</p>
+                <a href="#">More Info</a>
             </div>
-            <div class="sidebar-title">
-                <h4>Advertisement</h4>
-                <a href="#">close</a>
-            </div>
-            <img src="images/advertisement.png" class="sidebar-ads">
-
-            <div class="sidebar-title">
-                <h4>Cobversation</h4>
-                <a href="#">Hide chat</a>
-            </div>
-
-            <div class="online-list">
-                <div class="online">
-                    <img src="images/member-1.png">
-                </div>
-                <p>SUMO HAQ</p>
-            </div>
-            <div class="online-list">
-                <div class="online">
-                    <img src="images/member-2.png">
-                </div>
-                <p>ABDULLAH AL NABIL</p>
-            </div>
-            <div class="online-list">
-                <div class="online">
-                    <img src="images/member-3.png">
-                </div>
-                <p>SUHA</p>
-            </div>
-
-
-
         </div>
+        <div class="event">
+            <div class="left-event">
+                <h3>22</h3>
+                <span>January</span>
+            </div>
+            <div class="right-event">
+                <h4>Unknown</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Bazar, Sylhet</p>
+                <a href="#">More Info</a>
+            </div>
+        </div>
+        <div class="sidebar-title">
+            <h4>Advertisement</h4>
+            <a href="#">Close</a>
+        </div>  
+        <img src="images/advertisement.png" class="sidebar-ads" alt="">
+        <div class="sidebar-title">
+            <h4>Conversation</h4>
+            <a href="#">Hide Chat</a>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/member/member-1.jpg" alt="">
+            </div>
+            <p>Razin Al Arib</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/member/member-2.jpg" alt="">
+            </div>
+            <p>VIPER FF</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/member/member-3.jpg" alt="">
+            </div>
+            <p>S A A Mizan</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/member/member-4.jpg" alt="">
+            </div>
+            <p>Md Shakil Sarkar</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/member/member-5.jpg" alt="">
+            </div>
+            <p>HS NAHID</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/member/member-6.jpg" alt="">
+            </div>
+            <p>Ziaul Karim</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/member/member-7.jpg" alt="">
+            </div>
+            <p>Abu Huryra</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/member/member-8.jpg" alt="">
+            </div>
+            <p>Angel Pori</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="images/member/member-9.jpg" alt="">
+            </div>
+            <p>Md.Tajul Islam</p>
+        </div>
+        
+
+        
+        
+        </div>
+        
+    </div>
+
+    <div class="footer">
+        <p> &copy;Copyright 2022 - Abdul Jabbar Al Nahid</p>
     </div>
     
-    <div class="footer">
-        <p>copyright 2022 - Abdul Jabbar Al Nahid</p>
-    </div>
-
     <script src="script.js"></script>
- </body>
 
-</html>  
+    
+</body>
+</html>
